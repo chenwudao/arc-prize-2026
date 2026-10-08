@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 大文件 / 数据 / 模型（只保留下载脚本）
+data/
+models/
+*.safetensors
+*.bin
+*.gguf
+*.parquet
+*.pkl
+*.pt
+
+# 日志与产物
+logs/
+output/
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
