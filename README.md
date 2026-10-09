@@ -43,6 +43,8 @@ docs/       # 方案调研笔记、write-up 精读、实验记录
 
 ## 协作流程
 
+项目调研与实验路线见 [2026-10-09 项目调研与优化变量总结](docs/2026-10-09-project-and-optimization-summary.md)，包含评分目标、模型依赖、可控变量、评测指标及证据边界。
+
 1. `git clone https://github.com/concious1949/arc-prize-2026.git`
 2. 建分支开发：`git checkout -b feat/xxx`（分支名用 `feat/` `fix/` `exp/` 前缀）
 3. 提交并推送：`git push -u origin feat/xxx`
