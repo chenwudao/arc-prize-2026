@@ -20,6 +20,16 @@ Kaggle 比赛 [ARC Prize 2026 - ARC-AGI-3](https://www.kaggle.com/competitions/a
 | 2026-11-02 | 最终提交截止 |
 | 2026-12-04 | 获奖公布 |
 
+## 最新进展与提交记录
+
+| 版本 | 提交 ID | 日期 | 公开榜得分 | 排名 | 说明与分析文档 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **v1** | 56988179 | 2026-10-09 | 24.22 | 1108 | [v1 成绩分析](docs/2026-10-10-v1-score-analysis.md) |
+| **v2** | 57062234 | 2026-10-11 | **28.04** | **751** | [v2 成绩分析与 35+ 差距复盘](docs/2026-10-11-v2-score-analysis.md)；Notebook 见 `notebooks/v2/` |
+
+- 最新提交 Notebook：[`notebooks/v2/arc3-v2-apex-fusion.ipynb`](notebooks/v2/arc3-v2-apex-fusion.ipynb)
+- Kaggle 线上副本：[`https://www.kaggle.com/code/jessewudao/arc3-v2-apex-fusion`](https://www.kaggle.com/code/jessewudao/arc3-v2-apex-fusion)
+
 ## 当前路线：复现 + 改进 Milestone 获奖方案
 
 以 Milestone 2 获奖方案（Daniel Franzen，金牌 34.30）为基线：

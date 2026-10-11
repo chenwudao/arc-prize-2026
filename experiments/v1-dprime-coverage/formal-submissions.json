@@ -1,0 +1,11 @@
+[
+  {
+    "ref": 56988179,
+    "fileName": "submission.parquet",
+    "date": "2026-10-09T03:19:03.317000",
+    "description": "V1 Dprime Coverage: Franzen Flash-Next baseline with Affectify D-prime scoring, observed per-game pace, 40pct tail fade, original fresh-game admission retained; no game-ID specialization.",
+    "status": "SubmissionStatus.COMPLETE",
+    "publicScore": "24.22",
+    "privateScore": ""
+  }
+]

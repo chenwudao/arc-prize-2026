@@ -1,0 +1,23 @@
+{
+  "baseline_sha256": "88a379f17c3a4ba8c98715fc23155346ccd6eb289bdafebadfc61a3178f9d9bd",
+  "notebook_sha256": "835ef4d175f79c7b855091f21ad88c4446315f8ef725453e6f67ac9ecc76d4bc",
+  "scheduler_sha256": "6eea15b7b77ebcb64913ba9b405b45dc59cc18e25c6c0ae9094dc05410304450",
+  "formal_runtime_seconds": 32400,
+  "formal_active_streams": 10,
+  "formal_game_source": "live competition gateway; no public/private filtering",
+  "smoke_game_count": 4,
+  "smoke_seconds_per_game": 300,
+  "changes": [
+    "D-prime scoring",
+    "observed per-game pace",
+    "tail fade 0.4",
+    "fresh-first admission retained"
+  ],
+  "remote_submission_id": 56988179,
+  "kernel_version": 1,
+  "smoke_artifacts_sha256": {
+    "benchmark.json": "48607d92b9c1cf1e832ab9573afcf924d059918a567fd7e5069faaa9741f5d14",
+    "serve.log": "b08c1954a33039aa2b35a80bff1e9f40f03d60311fb333a6620ac4c9590d3aa0",
+    "submission.parquet": "71bfd543030e339d87bd9ff744d466218398a1259650b2c255626d27049c88bb"
+  }
+}

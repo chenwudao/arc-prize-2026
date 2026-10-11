@@ -1,0 +1,27 @@
+{
+  "iteration": "v1-dprime-coverage",
+  "kernel": "jessewudao/arc3-v1-dprime-coverage",
+  "kernel_id": 137791949,
+  "kernel_version": 1,
+  "smoke_status": "COMPLETE",
+  "formal_submission_status": "SubmissionStatus.COMPLETE",
+  "checked_at_utc": "2026-10-10T13:19:14.548262+00:00",
+  "validation": {
+    "local_checks": 6,
+    "patch_check": "PASS",
+    "remote_metadata": "RTX PRO 6000; GPU enabled; internet disabled; private",
+    "remote_gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "smoke_game_count": 4,
+    "smoke_actions": 89,
+    "smoke_generated_tokens": 109123,
+    "smoke_completed_levels": 0,
+    "smoke_score": 0.0,
+    "submission_parquet_bytes": 2648,
+    "server_error_scan": "No ERROR/Traceback/OutOfMemory/RuntimeError/Killed lines found"
+  },
+  "formal_submission_id": 56988179,
+  "submitted_at_utc": "2026-10-09T03:19:03.317000",
+  "public_score": 24.22,
+  "private_score": null,
+  "account_rank": 1108
+}

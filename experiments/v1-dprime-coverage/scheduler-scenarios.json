@@ -1,0 +1,29 @@
+[
+  {
+    "scenario": "stalled_level1",
+    "level": 1,
+    "actions": 150,
+    "tokens": 250000,
+    "baseline": 61,
+    "v1_early": 16036,
+    "v1_end": 36
+  },
+  {
+    "scenario": "near_final_level",
+    "level": 10,
+    "actions": 30,
+    "tokens": 20000,
+    "baseline": 193,
+    "v1_early": 3874,
+    "v1_end": 3874
+  },
+  {
+    "scenario": "fresh",
+    "level": 1,
+    "actions": 0,
+    "tokens": 0,
+    "baseline": 900,
+    "v1_early": 17000,
+    "v1_end": 1000
+  }
+]

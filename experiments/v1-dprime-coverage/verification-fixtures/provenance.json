@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "priority_scheduler.py": "https://github.com/da-fr/arc-agi-3-solution/blob/10882e332d883af3e61616df8c8a17d03a328a75/ARC3-Inference/inference/agent/priority_scheduler.py",
+    "tool_agent_gate.py": "_PriorityGate extracted from the same Franzen commit",
+    "reference-dprime.py": "https://www.kaggle.com/code/shiiin9/affectify-arc-31-54-in-a-single-sub"
+  },
+  "sha256": {
+    "reference-dprime.py": "6456efdd7500d67c2851d2b6474b12bd1c41b5138c0b6f3de603299e63d9fcb2",
+    "tool_agent_gate.py": "7aceee584aac314074c50be51bd5b3502f5779bdf7c50dc941fa1509d9768146",
+    "priority_scheduler.py": "f9f8a4bd21a1066073bb97d50639be2c2410d481a97e5b1cab9d6214ebe70bbe"
+  }
+}

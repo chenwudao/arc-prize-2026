@@ -1,0 +1,35 @@
+{
+  "scope": "GPU smoke test only; four public games, one pass, five-minute game budget; not a leaderboard estimate",
+  "start_time": "2026-10-09T03:11:55.359589",
+  "end_time": "2026-10-09T03:17:09.750851",
+  "games": [
+    {
+      "game_id": "sk48-d8078629",
+      "state": "gave_up",
+      "recorded_actions": 25,
+      "generated_tokens": 29540
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "state": "gave_up",
+      "recorded_actions": 24,
+      "generated_tokens": 28338
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "state": "gave_up",
+      "recorded_actions": 27,
+      "generated_tokens": 27642
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "state": "gave_up",
+      "recorded_actions": 13,
+      "generated_tokens": 23603
+    }
+  ],
+  "total_recorded_actions": 89,
+  "total_generated_tokens": 109123,
+  "completed_levels": 0,
+  "score": 0.0
+}
