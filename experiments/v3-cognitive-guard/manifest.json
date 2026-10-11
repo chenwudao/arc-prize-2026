@@ -1,0 +1,20 @@
+{
+  "baseline_sha256": "88a379f17c3a4ba8c98715fc23155346ccd6eb289bdafebadfc61a3178f9d9bd",
+  "notebook_sha256": "075af257b7e3f3652f8865c1ea41a5575e7c6e74cead971be4b3c35d46611bb8",
+  "scheduler_sha256": "0857e47c8401cf797c76f5005d453e94ca28d8bc3256ac220ddca62c38cb9ad5",
+  "formal_runtime_seconds": 32400,
+  "formal_active_streams": 10,
+  "formal_game_source": "live competition gateway; no public/private filtering",
+  "smoke_game_count": 4,
+  "smoke_seconds_per_game": 300,
+  "changes": [
+    "Full D-prime priority alignment",
+    "install_d fresh-game admission replacement",
+    "Dynamic per-game FormPace tracking",
+    "Endgame tail fade 0.4",
+    "Non-intrusive Strategy-Audit intervention on stalled levels (actions >= 24)",
+    "Level-1 cognitive guards enabled (ARC3_GUARDS_FROM_LEVEL=1)",
+    "Repeat no-op & death guards enabled (ARC3_NOOP_REPEAT_GUARD=1, ARC3_DEATH_REPEAT_GUARD=1)",
+    "Death state ledger enabled (ARC3_DEATH_LEDGER=1)"
+  ]
+}
