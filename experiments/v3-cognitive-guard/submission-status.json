@@ -1,0 +1,26 @@
+{
+  "iteration": "v3-cognitive-guard",
+  "kernel": "jessewudao/arc3-v3-cognitive-guard",
+  "kernel_version": 1,
+  "smoke_status": "COMPLETE",
+  "smoke_validation": {
+    "games_run": 4,
+    "total_actions": 78,
+    "total_tokens": 95473,
+    "tokens_per_sec": 317.99,
+    "action_efficiency_vs_v2": "25.7% reduction in wasted actions (78 vs 105 in V2)",
+    "levels_progress": "1 cleared on tn36-ef4dde99",
+    "crashes": 0,
+    "submission_parquet_bytes": 2648,
+    "server_status": "Pennyroyal vLLM + Qwen3.8-Flash-Next healthy on RTX PRO 6000"
+  },
+  "competition_quota": {
+    "daily_allowance": 1,
+    "today_used": 1,
+    "used_by": "V2 Apex Fusion (57062234, LB 28.04)",
+    "reset_time_utc": "2026-10-12T00:00:00Z",
+    "reset_time_beijing": "2026-10-12T08:00:00+08:00",
+    "status": "READY_FOR_SUBMIT_AT_RESET"
+  },
+  "submit_command": "~/.local/bin/kaggle competitions submit arc-prize-2026-arc-agi-3 -k jessewudao/arc3-v3-cognitive-guard -v 1 -m \"V3 Cognitive Guard: Full D-prime + Strategy-Audit + Level-1 Guards\" -f submission.parquet"
+}
