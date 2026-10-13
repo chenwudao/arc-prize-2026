@@ -14,13 +14,14 @@
     "submission_parquet_bytes": 2648,
     "server_status": "Pennyroyal vLLM + Qwen3.8-Flash-Next healthy on RTX PRO 6000"
   },
-  "competition_quota": {
-    "daily_allowance": 1,
-    "today_used": 1,
-    "used_by": "V2 Apex Fusion (57062234, LB 28.04)",
-    "reset_time_utc": "2026-10-12T00:00:00Z",
-    "reset_time_beijing": "2026-10-12T08:00:00+08:00",
-    "status": "READY_FOR_SUBMIT_AT_RESET"
-  },
-  "submit_command": "~/.local/bin/kaggle competitions submit arc-prize-2026-arc-agi-3 -k jessewudao/arc3-v3-cognitive-guard -v 1 -m \"V3 Cognitive Guard: Full D-prime + Strategy-Audit + Level-1 Guards\" -f submission.parquet"
+  "formal_submission": {
+    "id": 57142410,
+    "file_name": "submission.parquet",
+    "submitted_at_utc": "2026-10-13T11:49:31.423000",
+    "submitted_at_beijing": "2026-10-13T19:49:31+08:00",
+    "description": "V3 Cognitive Guard: Full D-prime + Strategy-Audit + Level-1 Guards",
+    "status": "SubmissionStatus.PENDING",
+    "public_score": null,
+    "private_score": null
+  }
 }
