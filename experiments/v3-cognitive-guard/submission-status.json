@@ -20,8 +20,8 @@
     "submitted_at_utc": "2026-10-13T11:49:31.423000",
     "submitted_at_beijing": "2026-10-13T19:49:31+08:00",
     "description": "V3 Cognitive Guard: Full D-prime + Strategy-Audit + Level-1 Guards",
-    "status": "SubmissionStatus.PENDING",
-    "public_score": null,
-    "private_score": null
+    "status": "SubmissionStatus.COMPLETE",
+    "public_score": 26.45,
+    "postmortem": "Setting ARC3_GUARDS_FROM_LEVEL=1 + NOOP/DEATH_REPEAT_GUARD=1 blocked legitimate Level-1 mechanical probing, and 24-action Strategy-Audit advice perturbed prompt context (-1.59 vs V2 28.04)."
   }
 }
