@@ -1,0 +1,20 @@
+{
+  "baseline_sha256": "88a379f17c3a4ba8c98715fc23155346ccd6eb289bdafebadfc61a3178f9d9bd",
+  "notebook_sha256": "c1a5425f522471536cfac496e5a58056eef85e74b6831289ae97e8e85c90e374",
+  "scheduler_sha256": "8a29ece693ef2204f6a4d50f58e70f0c8ed33c89a06baac359a4c1af670c2861",
+  "formal_runtime_seconds": 32400,
+  "formal_active_streams": 10,
+  "formal_game_source": "live competition gateway; no public/private filtering",
+  "smoke_game_count": 4,
+  "smoke_seconds_per_game": 300,
+  "changes": [
+    "Full D-prime priority alignment + install_d fresh-game admission replacement (from V2 LB 28.04)",
+    "Reverted EXPOSE_RESET='on' (restores default off; only EXPOSE_UNDO='on') to avoid voluntary mid-level resets",
+    "Removed 96k stagnation_restart.py hard wipe (preserves SGLang KV-cache, GPU slot, and cross-level _kept_functions)",
+    "Removed unadvertised segmentation bbox_rc and sandbox bloat",
+    "Complete 3-Point Animation-Aware Execution Guard (python_tool_sandbox.py, solver.py batch no_op_action stop, tool_agent.py, animation.py)",
+    "Transactional Helper Retention on Tool Timeout (preserves _kept_functions when 30s Python call times out)",
+    "Static 1-line PYTHON_ADDENDUM_TAIL REPL persistence reminder in prompts.py (100% KV-cache reuse)",
+    "On-demand current-level Death Ledger (ARC3_DEATH_LEDGER='1' + post-drain fallback) and Late Step-Budget Bar Alert (<=25% or <=12 steps remaining)"
+  ]
+}
