@@ -1,0 +1,18 @@
+{
+  "baseline_sha256": "88a379f17c3a4ba8c98715fc23155346ccd6eb289bdafebadfc61a3178f9d9bd",
+  "notebook_sha256": "aa6935eeadc83c725090f00dac9821b28c033159553080da447edf96e611cecd",
+  "scheduler_sha256": "3b0e5d724709f4f57d12e60d5f04763d69390e0112e14c3a8934ffe21284a5c5",
+  "formal_runtime_seconds": 32400,
+  "formal_active_streams": 10,
+  "formal_game_source": "live competition gateway; no public/private filtering",
+  "smoke_game_count": 4,
+  "smoke_seconds_per_game": 300,
+  "changes": [
+    "Built on V5 (Public LB 31.18): D-prime priority + install_d fresh-game admission + EXPOSE_RESET off (EXPOSE_UNDO='on')",
+    "Pre-Execution State-Hash Guards on Level >= 2 (overridable): ARC3_DEATH_REPEAT_GUARD='1' (with _fatal_prefix_match lookahead), animation-safe ARC3_NOOP_REPEAT_GUARD='1', and ARC3_REPEAT_STATE_GUARD='1' per-snippet cycle breaker",
+    "Complete 4-Point Animation-Aware Guard across python_tool_sandbox.py, solver.py (including gameplay_changed_per_action), tool_agent.py (including _record_guard_observations), and animation.py",
+    "Scoped Sandbox Data Memory (scoped_memory.py / ARC3_SCOPED_MEMORY='1'): persistent JSON `scratch = {'game': {}, 'level': {}, 'step': {}}` up to 128 KiB with 0 LLM prompt bloat",
+    "Transactional 30s Timeout Retention for both _kept_functions and _scratch_memory",
+    "Spatial Grounding & Truncation Recovery: ARC3_GAMEOVER_DIFF='1', ARC3_LEVEL_INVENTORY='1', ARC3_DEATH_LEDGER='1' (+ post-drain fallback), step_budget.py late alert, and ARC3_STUB_DEAD_REASONING='1'"
+  ]
+}

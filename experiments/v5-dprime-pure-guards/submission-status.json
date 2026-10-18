@@ -56,7 +56,7 @@
     "submitted_at_local": "2026-10-17T17:22:50+08:00",
     "file_name": "submission.parquet",
     "description": "V5 D-Prime Pure Guards: Clean D-prime (EXPOSE_RESET off, no 96k wipe) + 3-point Animation Guard + Timeout Helper Retention + Death Ledger & Step Budget",
-    "status": "SubmissionStatus.PENDING",
-    "public_score": null
+    "status": "SubmissionStatus.COMPLETE",
+    "public_score": 31.18
   }
 }

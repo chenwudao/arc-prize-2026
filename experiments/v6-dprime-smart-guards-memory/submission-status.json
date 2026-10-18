@@ -1,0 +1,62 @@
+{
+  "iteration": "v6-dprime-smart-guards-memory",
+  "kernel_ref": "jessewudao/arc3-v6-dprime-smart-guards-memory",
+  "kernel_version": 1,
+  "smoke_test": {
+    "status": "KernelWorkerStatus.COMPLETE",
+    "completed_at": "2026-10-18T12:38:30+08:00",
+    "games": 4,
+    "mean_score": 2.78,
+    "median_score": 3.17,
+    "total_actions": 88,
+    "total_tokens": 101754,
+    "generated_tokens_per_sec": 331.76,
+    "duration_s": 306.7,
+    "total_wallclock_s": 1206.8,
+    "sglang_ready_s": 698.6,
+    "per_game": {
+      "bp35-0a0ad940": {
+        "score": 0.0,
+        "levels": "0.0/9",
+        "actions": 16,
+        "tokens": 23185
+      },
+      "m0r0-492f87ba": {
+        "score": 4.76,
+        "levels": "1.0/6",
+        "actions": 18,
+        "tokens": 25675
+      },
+      "sk48-d8078629": {
+        "score": 2.78,
+        "levels": "1.0/8",
+        "actions": 25,
+        "tokens": 27441
+      },
+      "tn36-ef4dde99": {
+        "score": 3.57,
+        "levels": "1.0/7",
+        "actions": 29,
+        "tokens": 25453
+      }
+    },
+    "v6_patches_verified": [
+      "animation",
+      "prompts",
+      "python_tool_sandbox",
+      "scoped_memory",
+      "solver",
+      "step_budget",
+      "tool_agent"
+    ],
+    "scheduler_log": "#ARC3_ITERATION v6-dprime-smart-guards-memory installed; fresh-first replaced with D-prime admission; tail fade 0.4; EXPOSE_RESET off; pre-exec state-hash guards (L>=2) + 4-pt animation guard + scoped scratch memory + timeout helper/memory retention + gameover/level diffs + dead-reasoning stub active"
+  },
+  "formal_submission": {
+    "submission_id": "57338741",
+    "submitted_at_utc": "2026-10-18 04:40:42.843000",
+    "submitted_at_local": "2026-10-18T12:40:42+08:00",
+    "file_name": "submission.parquet",
+    "description": "V6: D-Prime + Pre-Exec State Guards (L>=2) + 4-Pt Animation Guard + Scoped Scratch Memory + Timeout Retention",
+    "status": "SubmissionStatus.PENDING"
+  }
+}
